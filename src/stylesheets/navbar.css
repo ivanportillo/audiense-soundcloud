@@ -1,0 +1,25 @@
+.menubar {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  background-color: rgb(249, 249, 249);
+}
+
+.menuButton{
+  font-weight: bold;
+  font-size: 0.9em;
+  display: flex;
+  flex: 1;
+  text-align: center;
+  color: rgb(198, 198, 198);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.activeButton{
+  color: rgb(230, 138, 0);
+  border-bottom: 3px solid rgb(230, 138, 0);
+}
