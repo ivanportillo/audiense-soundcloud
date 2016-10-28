@@ -35,7 +35,7 @@ Use only what you are comfortable with.
 
 ### Example
 
-You can see a video example of what we’d love to see done in `soundcloud_player.mp4`. You’re free to use whatever styles you like but you can also try to get as close as possible to the given example.
+You can see a video example of what we’d love to see done in `soundcloud_player.mp4`. You’re free to use whatever styles you like but you can n try to get as close as possible to the given example.
 
 ### Hints
 

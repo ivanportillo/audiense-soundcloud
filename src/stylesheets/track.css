@@ -1,9 +1,9 @@
 .track{
-  display: flex;
-  flex-basis: 40px;
   padding: 10px;
   border-bottom: 1px solid rgb(240, 240, 240);
   display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
   background-color: white;
   flex-flow: row wrap;
   align-items: center;

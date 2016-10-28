@@ -1,0 +1,30 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  flex: 10;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(249, 249, 249);
+}
+
+.about{
+  display: flex;
+  flex: 15;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.image{
+  height: 50px;
+}
+
+.text{
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 0.9em;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from 'components/navbar';
+import Player from 'components/player';
 import * as styles from 'stylesheets/app.css';
 
 const App = ({ children }) =>
@@ -7,7 +8,7 @@ const App = ({ children }) =>
     <div className={styles.main}>
       <Navbar />
       {children}
-      <div className={styles.player}>No track to play..</div>
+      <Player />
     </div>
   </div>;
 

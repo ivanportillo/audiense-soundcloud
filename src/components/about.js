@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
-import * as styles from 'stylesheets/search.css';
+import React from 'react';
+import * as styles from 'stylesheets/about.css';
 
-class About extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className={styles.mainContainer}>
-        <div className={styles.songs}>
-          <img alt="Audiense Logo" height="200" src={'http://www.audiense.com/wp-content/uploads/2016/03/Audiense-socialintelligence-CROPPED.png'} />
-          <span>Hola holita vecinitos</span>
-        </div>
-      </div>
-    );
-  }
-}
+const About = () =>
+  <div className={styles.mainContainer}>
+    <div className={styles.about}>
+      <img alt="Audiense Logo" className={styles.image} src={'data:image/png;base64,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'} />
+      <span className={styles.text}>The path of the righteous man is beset on all sides by the
+      inequities of the selfish and the tyranny of evil men.
+      Blessed is he, who in the name of charity and good will,
+      shepherds the weak through the valley of darkness, for he is truly his
+      brothers keeper and the finder of lost children.
+      And I will strike down upon thee with great vengeance and furious anger
+      those who would attempt to poison and destroy my brothers.
+      And you will know my name is the Lord when I lay my vengeance upon thee.</span>
+    </div>
+  </div>;
 
 export default About;

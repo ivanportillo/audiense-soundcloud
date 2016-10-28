@@ -1,0 +1,44 @@
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 2;
+  align-items: center;
+  -webkit-box-shadow: 0 -6px 5px 0 rgba(181,181,181,0.39);
+  -moz-box-shadow: 0 -6px 5px 0 rgba(181,181,181,0.39);
+  box-shadow: 0 -6px 5px 0 rgba(181,181,181,0.39);
+}
+
+.empty{
+  flex: 1;
+  color: rgb(154, 152, 154);
+  padding-left: 20px;
+}
+
+.player{
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.image{
+  height: 60px;
+  width: 60px;
+}
+
+.title{
+  flex: 2;
+  padding-left: 10px;
+  font-size: 0.8em;
+}
+
+.title span {
+    font-size: 1em;
+    display:inherit;
+    color: rgb(198, 198, 198);
+}
+
+.controls{
+  font-size: 2.3em;
+  padding: 3px;
+  flex: 0;
+}

@@ -7,21 +7,6 @@
   background-color: rgb(249, 249, 249);
 }
 
-.search{
-  margin: 0;
-  flex: 1.5;
-  font-size: 1em;
-  padding-left: 7px;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-bottom: 1px solid rgb(198, 198, 198);
-}
-
-.search:focus{
-  outline: none;
-}
-
 .empty{
   display: flex;
   flex: 15;
@@ -34,7 +19,7 @@
   justify-content: center;
 }
 
-.tracks{
+.queue{
   display: flex;
   flex: 15;
   flex-flow: column nowrap;

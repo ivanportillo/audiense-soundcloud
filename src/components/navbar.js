@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, IndexLink } from 'react-router';
 import * as styles from 'stylesheets/navbar.css';
 
 const Navbar = () =>
   <div className={styles.menubar}>
-    <Link to="/search" className={styles.menuButton} activeClassName={styles.activeButton}>
+    <IndexLink to="/" className={styles.menuButton} activeClassName={styles.activeButton}>
       <i className="material-icons">search</i>
       <span>Search</span>
-    </Link>
+    </IndexLink>
     <Link to="/queue" className={styles.menuButton} activeClassName={styles.activeButton}>
       <i className="material-icons">list</i>
       <span>Queue</span>
